@@ -128,22 +128,5 @@ a{
 .s{
     margin-top: 10px;
 }
-/* Estilo para el off canvas */
-/* Estilo para el off canvas */
-.offcanvas-start {
-    position: fixed;
-    top: 56px; /* Altura de la navbar */
-    bottom: 0;
-    left: 0;
-    width: 300px; /* Ancho del off canvas */
-    z-index: 1050;
-    overflow-y: auto;
-    background-color: #f8f9fa;
-    transition: transform 0.3s ease;
-    transform: translateX(-100%);
-}  
-  /* Muestra el off canvas cuando está activo */
-.offcanvas-start.show {
-    transform: translateX(0);
-}
+
 
