@@ -1,3 +1,5 @@
+
+
 body{
     margin: 0;
     
@@ -130,4 +132,39 @@ a{
     margin-top: 10px;
 }
 
+
+@media (max-width: 1000px ) {
+    .side-a, .side-b, footer{
+        max-width: 90%;
+        padding: 0;
+    }
+
+
+    .icon, .icons, .icons-skills{
+        max-width: 50px;
+    }
+
+    .icon{
+        display: flex;
+        margin: 0;
+        max-height: 50px;
+    }
+    .details{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .list{
+        width: 300px;
+    }
+    .skills{
+        width: 300px;
+    }
+    .select-box{
+        margin: 0;
+    }
+}
+* {
+    outline: 1px solid #f00 !important;
+  }
 
