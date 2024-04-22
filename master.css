@@ -146,23 +146,25 @@ a{
 
     .icon{
         display: flex;
-        margin: 0;
-        max-height: 50px;
+        margin: 20px;
+        height: 50px;
     }
     .details{
         width: 100%;
         margin: 0;
-        padding: 0;
+        padding: 5%;
     }
     .list{
-        width: 300px;
+        width: 90%;
     }
     .skills{
-        width: 300px;
+        width: 100%;
+        
     }
-    .select-box{
-        margin: 0;
+    .title{
+        margin-top: 10px;
     }
+
 }
 
 
