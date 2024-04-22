@@ -135,7 +135,7 @@ a{
 
 @media (max-width: 1000px ) {
     .side-a, .side-b, footer{
-        max-width: 90%;
+        max-width: 100%;
         padding: 0;
     }
 
@@ -164,7 +164,5 @@ a{
         margin: 0;
     }
 }
-* {
-    outline: 1px solid #f00 !important;
-  }
+
 
